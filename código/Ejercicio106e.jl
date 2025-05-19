@@ -822,8 +822,7 @@ end
 ### Caso: μ ∈ ℜ, θ > 0, ambos parámetros desconocidos
 
 @doc bExpo # consultar documentación 
-
-μ,θ = -1.5, 3.7; # valor teórico de los parámetros desconocidos
+μ,θ = -1.4, 3.7; # valor teórico de los parámetros desconocidos
 X = vaExponencial(μ,θ);
 n = 100; # tamaño de muestra a simular
 xx = X.sim(n) # simular muestra observada
